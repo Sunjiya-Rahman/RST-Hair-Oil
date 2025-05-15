@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    height: 60px;
+    width: 100%;
+    background-color: plum;
+    justify-content: space-between;
+    display: flex;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+}
+.logo{
+    color: rgb(83, 83, 136);
+    display: flex;
+    font-size: 25px;
+    font-weight: bolder;
+    align-items: center;
+    gap: 5px;
+}
+.logo img{
+    height: 60px;
+    width: auto;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.nav-link{
+    margin-left: 800px;
+    padding: 20px;
+
+}
+.nav-link a{
+    padding-right: 25px;
+    font-size: 22px;
+    text-decoration-line: none;
+}
+.nav-link a:hover{
+    color: black;
+}
+.name{
+    border: 2px solid black;
+    height: 45px;
+    width: 180px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 1px 30px 30px 1px;
+    background-color: pink;
+    text-align: center;
+    align-items: center;
+}
+.main-box{
+    border: 2px solid black;
+    height: 250px;
+    width: 1200px;
+    margin-left: 130px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 5px;
+    background-color: rgb(243, 239, 235);
+}
+.box1{
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.box1 img{
+    height: 80%;
+    width: 100%;
+    border-radius: 10px;
+}
+.box1 a{
+    text-decoration-line: none;
+    font-size: 20px;
+    margin: 80px;
+}
+.com{
+    border: 2px solid black;
+    height: 45px;
+    width: 180px;
+    margin-left: 1300px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px 1px 1px 30px;
+    background-color: pink;
+    text-align: center;
+    align-items: center;
+}
+.footer{
+    background-color: plum;
+    height: 280px;
+    width: auto;
+    align-items: center;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 20px 20px 1px 1px ;
+}
+.two-parts{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.info img{
+     height: 40px;
+    width: auto;
+    border: 2px solid black;
+}
+button{
+    height: 30px;
+    width: 80px;
+}
+.icon{
+    margin-left: 650px;
+    margin-top: -50px;
+
+}
+.icon img{
+    height:30px ;
+    width: 30px;
+}

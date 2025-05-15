@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>types of form</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="box">
+        <form id="SignUpform" onsubmit =" return signup()">
+            <h2>SignUp form</h2>
+            <div class="form-group">
+                <label for="Username">Name</label><br>
+                <input type="text" placeholder="Enter your name"  id="name" required><br><br>
+                <span id="usernameError" class="error"></span>
+            </div>
+            <div class="form-group">
+                <label for="gmail">Email</label><br>
+                <input type="Email" placeholder="Enter your gmail address" id="email"required><br><br>
+                <span id="EmailError" class="error"></span>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label><br>
+                <input type="Password"  placeholder="Enter your password" name="password" id="password"required><br><br>
+                <span id="passwordError" class="error"></span>
+            </div>
+            <div class="form-group">
+                <label for="confirmpassword">Confirm Password</label><br>
+                <input type="Confirmpassword"  placeholder="Enter your confirmpassword " name="confirmpassword" id="ConfirmPassword"required><br><br>
+                <span id="confirmpasswordError" class="error"></span>
+            </div>
+            <div class="button">
+                <input type="submit" value="sign Up">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

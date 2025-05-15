@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 100px;
+    width: auto;
+    background-color: rgba(137, 106, 168, 0.557);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.logo-section{
+    color: black;
+    display: flex;
+    font-size: 28px;
+    font-weight: bolder;
+    align-items: center;
+    gap: 8px;
+}
+.logo-section img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+#part1{
+    color: rgb(125, 12, 125);
+}
+#part2{
+    color: rgb(178, 71, 178);
+}

@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    height: 60px;
+    width: 100%;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    display: flex;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+}
+.logo{
+    color: blue;
+    display: flex;
+    font-size: 35px;
+    font-weight: bolder;
+    align-items: center;
+    gap: 5px;
+}
+.logo img{
+    height: 30px;
+    width: auto;
+    border: 2px solid black;
+}
+.nav-link{
+    margin-left: 800px;
+    padding: 20px;
+
+}
+.nav-link a{
+    padding-right: 25px;
+    font-size: 22px;
+    text-decoration-line: none;
+}
+.nav-link a:hover{
+    color: black;
+}
+.main-box{
+    height: 500px;
+    width: 1200px;
+    margin-left: 130px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 5px;
+    background-color: rgb(243, 239, 235);
+}
+.box1{
+    height: 450px;
+    width: 600px;
+    margin: 20px;
+}
+.box1 img{
+    height: 100%;
+    width: 100%;
+}
+.box2{
+    height: 450px;
+    width: 600px;
+    margin: 20px;
+    font-size: 20px;
+    overflow: scroll;
+}
+.content-box{
+    height: 500px;
+    width: 1200px;
+    margin-left: 130px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 5px;
+    background-color: rgb(243, 239, 235);
+}
+.box3{
+    height: 450px;
+    width: 600px;
+    margin: 20px;
+    font-size: 20px;
+    overflow: scroll;
+}
+.box4{
+    height: 450px;
+    width: 600px;
+    margin: 20px;
+}
+.box4 img{
+    height: 100%;
+    width: 100%;
+}
+.footer{
+    background-color: whitesmoke;
+    height: 280px;
+    width: auto;
+    align-items: center;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 20px 20px 1px 1px ;
+}
+.two-parts{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.info img{
+     height: 40px;
+    width: auto;
+    border: 2px solid black;
+}
+button{
+    height: 30px;
+    width: 80px;
+}
+.icon{
+    margin-left: 650px;
+    margin-top: -50px;
+
+}
+.icon img{
+    height:30px ;
+    width: 30px;
+}
